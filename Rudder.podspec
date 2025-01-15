@@ -29,4 +29,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources/**/*.{h,m}'
   
   s.dependency 'MetricsReporter', '2.0.0'
+  s.dependency 'BrazeKit', '11.3.0'
 end

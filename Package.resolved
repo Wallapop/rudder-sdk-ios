@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "braze-swift-sdk",
+        "repositoryURL": "https://github.com/braze-inc/braze-swift-sdk",
+        "state": {
+          "branch": null,
+          "revision": "2852dfb0e63b68b4bcb804b05bff02609fa1f03c",
+          "version": "11.3.0"
+        }
+      },
+      {
         "package": "RSCrashReporter",
         "repositoryURL": "https://github.com/rudderlabs/crash-reporter-ios",
         "state": {
@@ -15,8 +24,8 @@
         "repositoryURL": "https://github.com/rudderlabs/metrics-reporter-ios",
         "state": {
           "branch": null,
-          "revision": "c5fe7cc861a83ec75978a516c02398c2a2cb1f20",
-          "version": "1.2.1"
+          "revision": "e307fa37c6c2d2cccf787d73b5b4b5bc3f650435",
+          "version": "2.0.0"
         }
       },
       {
@@ -26,6 +35,15 @@
           "branch": null,
           "revision": "8a557a80cc1b0e0bc948c2b17fe0fd3809bcfd61",
           "version": "1.4.0"
+        }
+      },
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage.git",
+        "state": {
+          "branch": null,
+          "revision": "10d06f6a33bafae8c164fbfd1f03391f6d4692b3",
+          "version": "5.20.0"
         }
       }
     ]
