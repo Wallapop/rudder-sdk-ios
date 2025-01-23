@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<p align="center"><b>The Customer Data Platform for Developers</b></p>
+<p align="center"><b>Wallapop's Fork 🍴: The Customer Data Platform for Developers</b></p>
 
 <p align="center">
   <a href="https://cocoapods.org/pods/Rudder">
@@ -23,6 +23,16 @@
 </p>
 
 ---
+
+# RudderStack iOS SDK - Wallapop's Fork 🍴
+
+We had to create this Fork in order to integrate Braze with a specific version `(1.31.0)`. Also we removed MetricsReporter as it was having some issues storing data in sql dababese spaming us with log errors. Also we continuously had a cocoapods warning related to License of MetricsReporter.
+
+So in this forked version we have:
+
+ - Braze integrated inside RudderStack directly (not imported as an external dependency)
+ - Fixed braze version (linked to the version that we need to use in mParticle)
+ - Removed MetricsReporter as we don't need to store any kind of metrics, just sent events and screen tracking to our backend.
 
 # RudderStack iOS SDK
 
