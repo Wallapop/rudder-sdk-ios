@@ -14,14 +14,12 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(name: "MetricsReporter", url: "https://github.com/rudderlabs/metrics-reporter-ios", .exact("2.0.0")),
         .package(name: "BrazeKit", url: "https://github.com/braze-inc/braze-swift-sdk", .exact("11.3.0")),
     ],
     targets: [
         .target(
             name: "Rudder",
             dependencies: [
-                .product(name: "MetricsReporter", package: "MetricsReporter"),
                 .product(name: "BrazeKit", package: "BrazeKit"),
             ],
             path: "Sources",
@@ -36,7 +34,7 @@ let package = Package(
         ),
         .testTarget(
             name: "RudderTests",
-            dependencies: ["Rudder", "MetricsReporter", "BrazeKit"],
+            dependencies: ["Rudder", "BrazeKit"],
             path: "Tests"
         ),
     ]

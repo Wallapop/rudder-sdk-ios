@@ -7,7 +7,6 @@
 //
 
 #import "RSEventFilteringPlugin.h"
-#import "RSMetricsReporter.h"
 
 @implementation RSEventFilteringPlugin
 
@@ -62,7 +61,6 @@
             }
             if(!isEventAllowed) {
                 [RSLogger logInfo:[NSString stringWithFormat:@"RSEventFilterPlugin: isEventAllowed: Dropping the event %@ to the destination %@ as it is %@", eventName, destinationName, [eventFilteringType isEqualToString:WHITELISTED_EVENTS] ? @"not in white list" : @"in blacklist"]];
-                [RSMetricsReporter report:SDKMETRICS_EVENTS_DISCARDED forMetricType:COUNT withProperties:@{SDKMETRICS_TYPE: SDKMETRICS_MSG_FILTERED, SDKMETRICS_INTEGRATION: destinationName} andValue:1];
             }
             return isEventAllowed;
         }

@@ -12,7 +12,6 @@
 #import "RSElementCache.h"
 #import "RSMessageType.h"
 #import "RSLogger.h"
-#import "RSMetricsReporter.h"
 
 static RSClient *_instance = nil;
 static RSEventRepository *_repository = nil;
@@ -372,9 +371,7 @@ static NSString* _advertisingId = nil;
     }
 }
 
-- (void)reportDiscardedEvent {
-    [RSMetricsReporter report:SDKMETRICS_EVENTS_DISCARDED forMetricType:COUNT withProperties:@{SDKMETRICS_TYPE: SDKMETRICS_OPT_OUT} andValue:1];
-}
+- (void)reportDiscardedEvent {}
 
 - (void)shutdown {
     // TODO: decide shutdown behavior
