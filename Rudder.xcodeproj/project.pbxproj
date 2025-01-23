@@ -771,6 +771,7 @@
 		535778952C4F8E0000E8CE9B /* RSExponentialBackOff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSExponentialBackOff.h; sourceTree = "<group>"; };
 		535778962C4F8E0000E8CE9B /* RSExponentialBackOff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSExponentialBackOff.m; sourceTree = "<group>"; };
 		767A0EEE9A76F43CF631573B /* Pods-Rudder-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rudder-watchOS.debug.xcconfig"; path = "Target Support Files/Pods-Rudder-watchOS/Pods-Rudder-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7914A7E52D424875002D88AF /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		83C9949585CD3C274CCE6A27 /* Pods-Rudder-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rudder-iOS.release.xcconfig"; path = "Target Support Files/Pods-Rudder-iOS/Pods-Rudder-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		9B4BB7D91351507AD413A9B4 /* Pods-Rudder-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rudder-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Rudder-tvOS/Pods-Rudder-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		9F631D98DB26309EFE5E0A24 /* Pods_Rudder_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rudder_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -973,7 +974,6 @@
 		ED83FDAE2731019F006F27B3 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		ED83FDAF2731019F006F27B3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ED83FDB02731019F006F27B3 /* Rudder.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rudder.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ED83FDB12731019F006F27B3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		ED83FE5D2731019F006F27B3 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		ED83FE5E2731019F006F27B3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ED83FF0D27310B44006F27B3 /* iOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iOS-Info.plist"; sourceTree = "<group>"; };
@@ -1421,7 +1421,7 @@
 				ED857DF12912754400B7BFCE /* CODEOWNERS */,
 				ED857DF22912754400B7BFCE /* CONTRIBUTING.md */,
 				EDEC3CDA29ADEF87007DDE07 /* github-release.config.js */,
-				ED83FDB12731019F006F27B3 /* LICENSE */,
+				7914A7E52D424875002D88AF /* LICENSE.md */,
 				ED857DEF2912752300B7BFCE /* package.json */,
 				ED83FDAE2731019F006F27B3 /* Package.swift */,
 				ED83FE5E2731019F006F27B3 /* Podfile */,
