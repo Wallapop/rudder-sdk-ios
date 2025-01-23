@@ -59,26 +59,6 @@ RSMetricsClient * _Nullable _metricsClient;
 }
 
 + (void)report:(NSString *)metricName forMetricType:(METRIC_TYPE)metricType withProperties:(NSDictionary * _Nullable )properties andValue:(float)value {
-    @try {
-        switch (metricType) {
-            case COUNT: {
-                RSCount *count = [[RSCount alloc] initWithName:metricName labels:properties value:(int)value];
-                if (_metricsClient != nil)
-                    [_metricsClient process:count];
-            }
-                break;
-            case GAUGE: {
-                RSGauge *gauge = [[RSGauge alloc] initWithName:metricName labels:properties value:value];
-                if (_metricsClient != nil)
-                    [_metricsClient process:gauge];
-            }
-                break;
-            default:
-                break;
-        }
-    } @catch (NSException *exception) {
-        [RSLogger logError:[NSString stringWithFormat:@"RSMetricsReporter: Failed to report metric, reason: %@", exception.reason]];
-    }
 }
 
 @end
