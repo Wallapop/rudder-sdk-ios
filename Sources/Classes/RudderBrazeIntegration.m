@@ -264,6 +264,9 @@ static Braze *rsBrazeInstance;
             [rsBrazeInstance logCustomEvent:message.event withProperties:message.properties];
             [RSLogger logInfo:@"Braze logCustomEvent: withProperties:"];
         }
+    } else if([message.type isEqualToString:@"screen"]) {
+            [rsBrazeInstance logCustomEvent:message.event withProperties:message.properties];
+            [RSLogger logInfo:@"Braze logCustomEvent: withProperties:"];
     }
 }
 
