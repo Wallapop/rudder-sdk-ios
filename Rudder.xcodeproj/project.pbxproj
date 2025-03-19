@@ -19,6 +19,12 @@
 		5C11F10C96D80DF73DBED732 /* Pods_Rudder_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447958A767B9B6F9BB3AC36A /* Pods_Rudder_iOS.framework */; };
 		60DF93A1FA405B16F4D273AB /* Pods_RudderTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F00C6B89DB926A1271D979A /* Pods_RudderTests_iOS.framework */; };
 		7275AF62B3887AFD09CF49CF /* Pods_RudderTests_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E0F163A9A54245F87BB53E /* Pods_RudderTests_watchOS.framework */; };
+		793C70E82D89BD710095DB31 /* RudderBrazeFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 793C70E72D89BD710095DB31 /* RudderBrazeFactory.h */; };
+		793C70E92D89BD710095DB31 /* RudderBrazeFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 793C70E72D89BD710095DB31 /* RudderBrazeFactory.h */; };
+		793C70EA2D89BD710095DB31 /* RudderBrazeFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 793C70E72D89BD710095DB31 /* RudderBrazeFactory.h */; };
+		793C70EC2D89BD880095DB31 /* RudderBrazeIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 793C70EB2D89BD880095DB31 /* RudderBrazeIntegration.h */; };
+		793C70ED2D89BD880095DB31 /* RudderBrazeIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 793C70EB2D89BD880095DB31 /* RudderBrazeIntegration.h */; };
+		793C70EE2D89BD880095DB31 /* RudderBrazeIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 793C70EB2D89BD880095DB31 /* RudderBrazeIntegration.h */; };
 		884A55BB19EDB6A5634388BF /* Pods_Rudder_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB87B9413194FE5EF1466A94 /* Pods_Rudder_tvOS.framework */; };
 		9EC62E0F3BA85A4979CA97C2 /* Pods_RudderTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8F93F0FE564ED32831E4DE /* Pods_RudderTests_tvOS.framework */; };
 		ED0CA6EA2A7D08B900899C1C /* RSTransformationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F2FA752A53D8310025D510 /* RSTransformationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -766,6 +772,8 @@
 		535778962C4F8E0000E8CE9B /* RSExponentialBackOff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSExponentialBackOff.m; sourceTree = "<group>"; };
 		767A0EEE9A76F43CF631573B /* Pods-Rudder-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rudder-watchOS.debug.xcconfig"; path = "Target Support Files/Pods-Rudder-watchOS/Pods-Rudder-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7914A7E52D424875002D88AF /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		793C70E72D89BD710095DB31 /* RudderBrazeFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RudderBrazeFactory.h; sourceTree = "<group>"; };
+		793C70EB2D89BD880095DB31 /* RudderBrazeIntegration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RudderBrazeIntegration.h; sourceTree = "<group>"; };
 		83C9949585CD3C274CCE6A27 /* Pods-Rudder-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rudder-iOS.release.xcconfig"; path = "Target Support Files/Pods-Rudder-iOS/Pods-Rudder-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		9B4BB7D91351507AD413A9B4 /* Pods-Rudder-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rudder-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Rudder-tvOS/Pods-Rudder-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		9F631D98DB26309EFE5E0A24 /* Pods_Rudder_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rudder_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1314,6 +1322,8 @@
 				ED7DFDAB298C091800ED5A8E /* RSUserSession.h */,
 				ED7DFDC2298C091800ED5A8E /* RSUtils.h */,
 				ED7DFDA2298C091800ED5A8E /* Rudder.h */,
+				793C70E72D89BD710095DB31 /* RudderBrazeFactory.h */,
+				793C70EB2D89BD880095DB31 /* RudderBrazeIntegration.h */,
 				ED7DFDC4298C091800ED5A8E /* UIViewController+RSScreen.h */,
 				ED7DFDC1298C091800ED5A8E /* WKInterfaceController+RSScreen.h */,
 				F64115FD2B68EBEC0015CB42 /* RSDefaultsPersistence.h */,
@@ -1531,6 +1541,7 @@
 				ED7DFE84298C091800ED5A8E /* RSECommerceProductBuilder.h in Headers */,
 				ED7DFE61298C091800ED5A8E /* RSElementCache.h in Headers */,
 				ED7DFEB0298C091800ED5A8E /* RSProductRemovedEvent.h in Headers */,
+				793C70E82D89BD710095DB31 /* RudderBrazeFactory.h in Headers */,
 				ED7DFE5E298C091800ED5A8E /* RSScreenPropertyBuilder.h in Headers */,
 				ED7DFEA3298C091800ED5A8E /* RSECommerceCheckoutBuilder.h in Headers */,
 				ED7DFE99298C091800ED5A8E /* RSECommerceWishListBuilder.h in Headers */,
@@ -1605,6 +1616,7 @@
 				ED7DFED4298C091800ED5A8E /* RSWishListProductAddedToCartEvent.h in Headers */,
 				ED7DFE68298C091800ED5A8E /* RSLibraryInfo.h in Headers */,
 				ED7DFEA2298C091800ED5A8E /* RSECommerceCouponBuilder.h in Headers */,
+				793C70EC2D89BD880095DB31 /* RudderBrazeIntegration.h in Headers */,
 				F6B4B52C29C8236100344864 /* RSNetworkResponse.h in Headers */,
 				F6B4B52F29C8236100344864 /* RSApplicationLifeCycleManager.h in Headers */,
 				ED8738542AB21C0E0076D24A /* RSDatabaseProvider.h in Headers */,
@@ -1649,6 +1661,7 @@
 				ED998E522A69003600031B06 /* RSScreenPropertyBuilder.h in Headers */,
 				ED998E532A69003600031B06 /* RSECommerceCheckoutBuilder.h in Headers */,
 				ED998E542A69003600031B06 /* RSECommerceWishListBuilder.h in Headers */,
+				793C70E92D89BD710095DB31 /* RudderBrazeFactory.h in Headers */,
 				ED998E552A69003600031B06 /* RSCheckoutStepViewedEvent.h in Headers */,
 				ED998E562A69003600031B06 /* RSTraits.h in Headers */,
 				ED998E572A69003600031B06 /* RSOption.h in Headers */,
@@ -1723,6 +1736,7 @@
 				ED998E952A69003600031B06 /* RSWishListProductAddedToCartEvent.h in Headers */,
 				ED998E962A69003600031B06 /* RSLibraryInfo.h in Headers */,
 				ED998E972A69003600031B06 /* RSECommerceCouponBuilder.h in Headers */,
+				793C70ED2D89BD880095DB31 /* RudderBrazeIntegration.h in Headers */,
 				ED998E982A69003600031B06 /* RSNetworkResponse.h in Headers */,
 				ED998E992A69003600031B06 /* RSApplicationLifeCycleManager.h in Headers */,
 				ED8738552AB21C0E0076D24A /* RSDatabaseProvider.h in Headers */,
@@ -1767,6 +1781,7 @@
 				ED998F222A69024E00031B06 /* RSScreenPropertyBuilder.h in Headers */,
 				ED998F232A69024E00031B06 /* RSECommerceCheckoutBuilder.h in Headers */,
 				ED998F242A69024E00031B06 /* RSECommerceWishListBuilder.h in Headers */,
+				793C70EA2D89BD710095DB31 /* RudderBrazeFactory.h in Headers */,
 				ED998F252A69024E00031B06 /* RSCheckoutStepViewedEvent.h in Headers */,
 				ED998F262A69024E00031B06 /* RSTraits.h in Headers */,
 				ED998F272A69024E00031B06 /* RSOption.h in Headers */,
@@ -1841,6 +1856,7 @@
 				ED998F652A69024E00031B06 /* RSWishListProductAddedToCartEvent.h in Headers */,
 				ED998F662A69024E00031B06 /* RSLibraryInfo.h in Headers */,
 				ED998F672A69024E00031B06 /* RSECommerceCouponBuilder.h in Headers */,
+				793C70EE2D89BD880095DB31 /* RudderBrazeIntegration.h in Headers */,
 				ED998F682A69024E00031B06 /* RSNetworkResponse.h in Headers */,
 				ED998F692A69024E00031B06 /* RSApplicationLifeCycleManager.h in Headers */,
 				ED8738562AB21C0E0076D24A /* RSDatabaseProvider.h in Headers */,
