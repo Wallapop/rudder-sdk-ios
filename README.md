@@ -33,6 +33,8 @@ So in this forked version we have:
  - Braze integrated inside RudderStack directly (not imported as an external dependency)
  - Fixed braze version (linked to the version that we need to use in mParticle)
  - Removed MetricsReporter as we don't need to store any kind of metrics, just sent events and screen tracking to our backend.
+ - Allow forwarding of screen events type to Braze.
+ - Allow filtering screen events through whitelist or blacklist.
 
 # RudderStack iOS SDK
 
