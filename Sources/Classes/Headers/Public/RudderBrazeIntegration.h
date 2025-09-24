@@ -9,8 +9,8 @@
 #import "RSClient.h"
 #import "RSConfig.h"
 
-@import BrazeKit;
- 
+#import <BrazeKit/BrazeKit-Swift.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BrazePurchase : NSObject
