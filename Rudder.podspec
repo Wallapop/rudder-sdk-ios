@@ -28,6 +28,6 @@ Pod::Spec.new do |s|
   
   s.source_files = 'Sources/**/*.{h,m}'
   
-  s.dependency 'BrazeKit', '11.3.0'
+  s.dependency 'BrazeKit', '13.3.0'
   
 end
